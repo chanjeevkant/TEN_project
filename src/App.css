@@ -1,0 +1,779 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.titlename{
+  text-align: left;
+  padding-left: 18%;
+}
+
+.titlemargin{
+  margin: 0%;
+  font-style: italic;
+}
+
+.Brandlogo{
+  position: absolute;
+  left: 8%;
+  top: 5%;
+  
+}
+
+.cartbutton{
+border-radius: 25px;
+background-color: #FF2626;;
+  width: 7%;
+ position: absolute;
+ top: 3.5%;
+ right:20%;
+}
+
+.loginbtn{
+  background-color:#FFF338;
+  border: 2px solid #555555;
+  width: 8%;
+  border-radius: 25px;
+position: absolute;
+right: 8%;
+top: 3.5%;
+font-size: 16px;
+}
+
+.titleinput {
+  background-color: black;
+  border-radius: 25px;
+  width: 30%;
+  font-size: 16px;
+  padding: 10px;
+  position: absolute;
+  right: 2%;
+  top:12%;
+  color: white;
+  outline: none;
+}
+.titleinput::placeholder{
+  color: azure;
+}
+
+.searchicon{
+  position: absolute;
+  right: 3%;
+  top:14%;
+  color: white;
+}
+
+.HomeLink{
+  color:#555555;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.HomeLink:hover{
+  color: #FF2626;
+  text-decoration: none;
+}
+
+.linkdiv{
+  border-right: 1px solid #555555;
+  width: 15%;
+  text-align: center;
+  
+}
+
+.Linkers{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  
+}
+
+.pcdeskimg{
+  margin-top: 2%;
+  width: 90%;
+  height:40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+
+}
+
+.imagetext1{
+  position: absolute;
+  top: 90%;
+  text-align: center;
+  left: 35%;
+  color: #FFC947;
+  
+}
+
+.Container2{
+  background-color: rgb(255, 64, 64);
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+
+.aboutusbtn{
+  border: 1px solid;
+  background-color: white;
+  margin-top: 3%;
+ 
+}
+
+.aboutusimg{
+  width: 441px;
+  height:296px;
+}
+
+.aboutdiv1{
+  margin-top: 2%;
+  margin-left: 5%;
+
+ 
+}
+.aboutdiv2{
+  margin-top: 2%;
+  margin-right: 3%;
+  position: relative;
+  padding-top: 2%;
+}
+
+.aboutustext{
+  font-size: 38px;
+}
+
+.jointenbtndiv{
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.jointenbtn{
+  text-align: center;
+  padding: 1em 2em;
+  background-size: 300% 300%;
+  color: white;
+  background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  border-radius: 40px;
+  font-size: 16px;
+  border: none;
+}
+
+.bgimgcontainer{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.bgimg{
+  background-image: url('icons/bgimg.jpg');
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+ background-size: 100%;
+  
+}
+
+.bgimgh1{
+  padding-top: 5%;
+  font-size: 48px;
+  font-family: cookie,cursive;
+  color: rgb(255,89,55);
+  text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgb(140 140 140 / 50%) 0px 4px 0px, #787878 0px 0px 0px, rgb(0 0 0 / 50%) 0px 5px 10px;
+
+}
+
+.bgimgh2{
+  font-size: 74px;
+  font-family: anton,sans-serif;
+  color: rgb(232,185,23);
+  margin-top: 2%;
+  text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgb(140 140 140 / 50%) 0px 4px 0px, #787878 0px 0px 0px, rgb(0 0 0 / 50%) 0px 5px 10px;
+}
+
+.bgimghr{
+background: white;
+width: 4%;
+height: 3px;
+position: relative;
+bottom: 50%;
+right: auto;
+left: auto;
+}
+
+.courseviewdiv{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction:row;
+}
+
+.courseviewimg1{
+  width: 900px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.courseviewcont2{
+  background-color: rgb(216, 5, 63);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.courseviewbtn1{
+  margin-top: 18%;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 1rem 4rem;
+}
+
+.courseviewbtn1:hover{
+  background-color: tomato;
+}
+
+.courseviewimg2{
+width: 680px;
+height: 400px;
+}
+
+.courseviewimg3{
+  width: 340px;
+height: 400px;
+}
+
+.courseviewimg4{
+  width: 680px;
+  height: 410px;
+}
+
+/* Ribbon Css */
+
+.ribbon {
+  font-size: 36px !important;
+  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+ 
+  width: 80%;
+     
+  position: relative;
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 1em 2em; /* Adjust to suit */
+  margin: 1em auto 0rem; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ }
+ .ribbon:before, .ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid black;
+  z-index: -1;
+ }
+ .ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+ }
+ .ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+ }
+ .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  bottom: -1em;
+ }
+ .ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+ }
+ .ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+ }
+
+ .aboutcourse{
+   background-color: #c8c8c8;
+   margin-top: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-bottom: 3%;
+   padding-top: 3%;
+ }
+
+ .abouthr{
+  width: 60%;
+  height: 3px;
+  margin-top: 0%;
+  text-align: center;
+  /* position: relative;
+  bottom: 50%;
+  right: auto;
+  left: auto; */
+  background-color: black;
+ }
+ .aboutsmalldiv{
+   text-align: center;
+ }
+
+ .coursebenefitslogo{
+   height: 167px;
+   width: 167px;
+ }
+
+ .testimonialh1{
+   color: red;
+   font-family: questrial,sans-serif;
+   font-size: 51px;
+   margin-bottom: 0%;
+ }
+
+ .slidingwindow{
+   margin-left: 5%;
+   margin-right: 5%;
+   background-color: #ff4c68;
+ }
+
+ .carouselp{
+   font-family: noticia,sans-serif;
+   font-size: 27px;
+   color: white;
+ }
+
+ .carouselele{
+   height: 400px;
+   width: 50%;
+   position: relative;
+   left: 25%;
+   padding-top: 7%;
+ }
+
+ .bggif{
+  background-image: url('https://c.tenor.com/-jkRWNP1tI4AAAAM/it-companies-in-florida-it-services-west-palm-beach.gif');
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  margin-top: 2%;
+ }
+
+ .bggifh1{
+   font-size: 64px;
+   font-family:  questrial,sans-serif;
+   color: #FFFFFE;
+   text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgb(140 140 140 / 50%) 0px 4px 0px, #787878 0px 0px 0px, rgb(0 0 0 / 50%) 0px 5px 10px;
+   position: relative;
+   padding-top: 20%;
+ }
+
+ .footer{
+   background-color: rgb(250, 250, 250);
+
+ }
+
+ .Sicon{
+   width:60px;
+   height:60px;
+ }
+
+ .consultbtn{
+   color: white;
+   background-color: hsl(8, 94%, 51%);
+   border: none;
+   width:12%;
+   font-size: 18px;
+   padding: 1rem;
+ }
+
+ .newsinput{
+   border: 1.8px solid black;
+   padding: 10px 2px;
+   margin: 1.5%;
+ }
+
+ .newssub{
+  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+margin-top: 1%;
+ }
+
+ .footerhylink{
+   text-decoration: none;
+   color: black;
+   font-size: 23px;
+   text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+ }
+
+ .footerhylink:hover{
+   text-decoration: none;
+   color: black;
+   font-size: 23px;
+   text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+ }
+
+ .copyright{
+   margin-top: 3%;
+   padding: 0.2rem;
+  background-color:rgb(255,89,55);
+  text-align: center;
+  margin-bottom: 0px;
+ }
+
+ .footerin{
+width: 25.333%;
+text-align: center;
+margin: auto;
+ }
+
+ .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+
+.Morehyperlink{
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+.Morehyperlink:hover{
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+.dropitem{
+  padding: 0px 16px;
+}
+
+.lidropdown{
+  width: auto;
+  height: auto;
+}
+
+.uldropdown{
+  padding: 0px;
+  border: 0px;
+}
+
+.chatbutton{
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  bottom: 3%;
+  right: 10px;
+
+}
+
+.chaticon{
+ width: 64px;
+ height: 64px;
+}
+
+.margin{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+
+.hiringbgimg2{
+  background-image: url("https://static.wixstatic.com/media/0c2d11194b8042ca9f11f7f681339102.jpg/v1/fill/w_1411,h_839,al_c,q_85,usm_0.66_1.00_0.01/0c2d11194b8042ca9f11f7f681339102.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1129px;
+  margin: auto;
+  text-align: center;
+  height: 671px;
+ position: static;
+}
+
+.applicationform{
+ padding: 2%;
+}
+
+.scrollbar{
+  overflow-y: scroll;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+.bootstrapmenu{
+  width:50%;
+  height:50%;
+  background-color: white;
+  box-shadow: 0.00px 1.00px 4px 0px rgba(0,0,0,0.6);
+  color: black;
+}
+
+.dropdownbtndiv{
+  margin: auto;
+  padding-top: 4%;
+}
+
+.hiringul{
+  width:50%;
+  height:auto;
+}
+
+.dropdownbtn{
+  margin: 1%;
+}
+.bootstrapmenu:hover{
+  background-color: rgb(174,125,209);
+}
+
+.applicationbtn{
+  width:10%;
+  background-color: rgb(232,227,227);
+  margin-top: 4%;
+  position: relative;
+  left:27%;
+}
+.applicationbtn:hover{
+  background-color: #76EE00;
+}
+
+.hiringbgimg1{
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin: auto;
+  text-align: center;
+ position: static;
+  background-image: url('https://static.wixstatic.com/media/11062b_557462ab123440368447ab18a66043e5~mv2.jpg/v1/fill/w_1624,h_931,al_c,q_85,usm_0.66_1.00_0.01/11062b_557462ab123440368447ab18a66043e5~mv2.webp');
+  width: 1299px;
+    height: 745px;
+    margin-top: 2%;
+}
+
+.interndiv{
+  text-align: left;
+  margin-left: 16%;
+  margin-right:7%;
+}
+
+.filterdiv{
+  width:16%;
+  background-color: #3d3d3d;
+  height: inherit;
+}
+
+.sortingbtn{
+position: relative;
+left: 85%;
+background-color: #3d3d3d;
+color: white;
+width: 15%;
+border-radius: 0%;
+}
+
+.sortingbtn:hover{
+  color: white;
+}
+
+.onlinecoursediv{
+  display: flex;
+  flex-direction:row;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+.coursecontentdiv{
+width: 84%;
+margin-top: 2%;
+margin-left: 2%;
+}
+
+.loadmorebtn{
+  background: transparent;
+  color: #FDC609;
+  border-color:#FDC609;
+  border-width:1px;
+  width: 22%;
+  font-size: 16px;
+  padding: 0.7rem;
+}
+
+.sortingli:hover{
+  color: #3d3d3d;
+}
+
+.paginationdiv{
+  width: fit-content;
+  margin: auto
+}
+
+.Courselinkdiv{
+  width:383.725px;
+  height:311.118px;
+}
+
+.courseimg{
+  width:inherit;
+  height:200.100px;
+}
+
+.wholecourselink {
+  margin: 2% 0%;
+  
+}
+
+.coursename{
+  font-family: sans-serif;
+  margin-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: left;
+}
+
+.courselink{
+  text-decoration: none;
+}
+
+.courseprice{
+  position: relative;
+  top: 0%;
+  padding-left: 3%
+}
+
+.blogsearchbtn{
+  border:none;
+  background: transparent;
+  
+}
+
+.searchdivbefore{
+  display:flex;
+  flex-direction:row;
+  position:relative;
+  left: 93%;
+  
+}
+
+.searchdivafter{
+  display:flex;
+  flex-direction:row;
+  position:relative;
+  left: 79%;
+}
+
+.rightfloat{
+  display:flex;
+  flex-direction:row;
+}
+
+.blognav{
+  width: inherit;
+}
+
+.blogcontainer{
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 8%;
+}
+
+.blogpost{
+  width: 271px;
+  height: 553.25px;
+  border-width: 5px;
+  border-color: rgb(166, 166, 166);
+  border-style: solid;
+  padding: 0px;
+  margin: 0px 10px;
+}
+
+.blogpicture{
+  width: inherit;
+  height:203.5px;
+  margin:-5px;
+
+}
+
+.blogpostdiv{
+  margin-top: 3%;
+}
+
+.blogtitle{
+  width: 231px;
+  height:205px;
+  margin:0px auto;
+
+}
+
+.blogtitlelink{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font: inherit;
+}
+
+.blogtitlelink:hover{
+  color: rgb(208, 141, 242);
+}
+
+.blogprofile{
+  margin: 0px 20px;
+  margin-top: 25px;
+}
+
+.blogprofiletext{
+  text-decoration: none;
+  color:#b4b4b4;
+  font-size: 12px;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.profilename{
+  position: relative;
+  right: 20%;
+}
